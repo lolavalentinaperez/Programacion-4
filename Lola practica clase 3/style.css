@@ -1,0 +1,141 @@
+*
+{
+    margin: 0;
+    padding: 0;;
+}
+
+body
+{
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    background-color: palevioletred;
+    grid-template-areas:
+        "header header header"
+        "nav nav nav"
+        "main main aside"
+        "footer footer footer"
+}
+
+header
+{
+    padding: 5px;
+    background-color:#edafb8;
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+    border: 2px solid #ffc2d1;
+    grid-area: header;
+    position: fixed;
+    width: 100%;
+}
+
+aside
+{
+    width: 30%;
+    grid-area: aside;
+    display: block;
+    margin: auto;
+}
+
+aside img
+{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+img[src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREWQC1_FpnryJciKGxt19fyMfHkYTNSbkS2Q&s"]
+{
+    border-radius: 10%;
+    width: 50px;
+}
+
+h1
+{
+    font-style: italic;
+    color: beige;
+}
+
+nav 
+{
+    grid-area: nav;
+    background-color: #ffc2d1;
+    border: 2px solid #edafb8;
+    text-align: center;
+    padding: 10px;
+}
+
+.liIndex
+{
+    display: inline;
+    padding: 10px;
+}
+
+nav a
+{
+    padding: 5px;
+    text-decoration: none;
+    color:blanchedalmond;
+    background-color:#edafb8;
+    border-radius: 8px;
+}
+
+main 
+{
+    grid-area: main;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    overflow-y: auto;
+}
+
+.coqueta
+{
+    background-color: #cdb4db;
+    margin: 15px;
+    padding: 10px;
+}
+
+.coquetona
+{
+    background-color: #cdb4db;
+    margin: 30px 15px;
+    padding: 10px;
+}
+
+h2
+{
+    text-align: center;
+    text-decoration:underline;
+    font-style: italic;
+    padding-top: 10px;
+    color:darkmagenta;
+    background-color: palevioletred;
+}
+
+img[src="https://tn.com.ar/resizer/v2/la-coqueta-gano-mas-de-10-millones-con-su-contenido-hot-foto-instagramarianahagostina-VUT4DJKYNBC45G4WVAKKDEMRNE.jpg?auth=5828573da543f38eb5690ca9d9c81412e9204b910ef2865cf022c5c752edcb28&width=767"]
+{
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+footer 
+{
+    background-color: #edafb8;
+    border: 2px solid #ffc2d1;
+    grid-area: footer;
+    bottom: 0;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto; 
+    justify-content: space-between; /* Aligns items to the left and right */
+    align-items: center; /* Vertically centers items */
+    z-index: 5;
+}
+
