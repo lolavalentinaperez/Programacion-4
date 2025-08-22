@@ -1,0 +1,156 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: #ffe5d9;
+}
+
+header
+{
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+    background-color: #edafb8;
+    border: 2px solid #ffc2d1;
+    font-style: italic;
+    align-items: center;
+    color: #f7e1d7;
+}
+
+
+
+img[src="static/gordo.jpg"]
+{
+    margin: 4px;
+    border-radius: 10%;
+}
+
+.liIndex
+{
+    display: inline;
+    padding: 20px;
+}
+
+nav
+{
+    text-align: center;
+    padding: 20px;
+    background-color: #f7e1d7;
+    border: 2px solid #ffc2d1;
+}
+
+nav a
+{
+    text-decoration: none;
+    color: #f7e1d7;
+    padding: 1%;
+    margin: auto;
+    background-color: #edafb8;
+    border-radius: 10px;
+}
+
+nav a:hover
+{
+    background-color:#ffc2d1;
+}
+
+nav a.activo
+{
+    background-color: #ffc2d1;
+    color:black;
+    border: 2px solid #edafb8;
+}
+
+main
+{
+    background-color: #edafb8;
+    border-radius: 15px;
+    padding: 3%;
+    margin: 5%;
+    border: 2px solid #ffc2d1;
+}
+
+aside
+{
+    background-color: #edafb8;
+    border-radius: 15px;
+    padding: 3%;
+    margin: 5%;
+    border: 2px solid #ffc2d1;
+}
+
+.horarios 
+{
+    display: flex;
+    flex-direction: column; /* que se apilen en columna */
+    gap: 10px; /* separación entre bloques */
+}
+
+.horario 
+{
+    display: flex;
+    justify-content: space-between; /* título izq, hora der */
+    background-color: #f7e1d7; 
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid #ffc2d1;
+}
+
+.horario h3 
+{
+    margin: 0;
+    font-size: 1em;
+}
+
+.horario span 
+{
+    font-weight: bold;
+}
+
+footer
+{
+    background-color: #edafb8;
+    border: 2px solid #ffc2d1;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+footer ul
+{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.contactos
+{
+    display: flex;
+    text-align:center;
+    justify-content: center;
+    gap: 10px;
+}
+
+footer a
+{
+    text-decoration: none;
+    color: black;
+    font-style: normal;
+}
+
+.contactos span
+{
+    font-weight: bold;
+    font-style: italic;
+}
