@@ -62,23 +62,32 @@ nav
     grid-area: nav;
     background-color: #ffc2d1;
     border: 2px solid #edafb8;
-    text-align: center;
     padding: 10px;
 }
 
 .liIndex
 {
-    display: inline;
+    display: inline-block;
     padding: 10px;
 }
 
 nav a
 {
-    padding: 5px;
+    padding: 5px 15px;
     text-decoration: none;
-    color:blanchedalmond;
-    background-color:#edafb8;
+    color: blanchedalmond;
+    background-color: #edafb8;
     border-radius: 8px;
+}
+
+nav ul
+{
+    list-style: none;      /* saca viñetas */
+    margin: 0;
+    padding: 0;
+    display: flex;         /* los <li> en fila */
+    justify-content: center; /* centra horizontal */
+    gap: 20px;   
 }
 
 main 
